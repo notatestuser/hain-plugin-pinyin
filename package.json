@@ -1,0 +1,21 @@
+{
+  "name": "hain-plugin-pinyin",
+  "version": "0.0.1",
+  "description": "Convert Chinese hanzi to pinyin",
+  "main": "index.js",
+  "author": "Luke Plaster",
+  "license": "MIT",
+  "keywords": [
+    "hain-0.1.0"
+  ],
+  "hain": {
+    "prefix": "/pinyin",
+    "usage": "type /pinyin followed by Chinese characters",
+    "icon": "#fa fa-clipboard",
+    "redirect": "/pinyin ",
+    "group": "Hanzi to Pinyin"
+  },
+  "dependencies": {
+    "mini-pinyin": "^0.0.2"
+  }
+}
